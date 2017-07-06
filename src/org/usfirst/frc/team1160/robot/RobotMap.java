@@ -6,15 +6,14 @@ package org.usfirst.frc.team1160.robot;
  * the wiring easier and significantly reduces the number of magic numbers
  * floating around.
  */
-public interface RobotMap {
-	//Drive train variables
-	public static final int DT_FRONTLEFT = 0;
-	public static final int DT_BACKLEFT = 1;	
-	public static final int DT_FRONTRIGHT = 2;
-	public static final int DT_BACKRIGHT = 3;
-	//Danny's part variables
-	public static final int DK_LEFT = 4;
-	public static final int DK_RIGHT = 5;
-	
-	
+public class RobotMap {
+	// For example to map the left and right motors, you could define the
+	// following variables to use with your drivetrain subsystem.
+	// public static int leftMotor = 1;
+	// public static int rightMotor = 2;
+
+	// If you are using multiple modules, make sure to define both the port
+	// number and the module. For example you with a rangefinder:
+	// public static int rangefinderPort = 1;
+	// public static int rangefinderModule = 1;
 }

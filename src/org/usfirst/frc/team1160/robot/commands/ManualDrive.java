@@ -1,5 +1,7 @@
 package org.usfirst.frc.team1160.robot.commands;
 
+import edu.wpi.first.wpilibj.command.Command;
+
 import org.usfirst.frc.team1160.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
@@ -11,14 +13,13 @@ public class ManualDrive extends Command{
 	}
 	
 	protected void initialize() {
-		//Robot.dt.setManual();
+		Robot.dt.setManual();
 		System.out.println("DT set to regular speed");
 	}
 
 	protected void execute() {
 		Robot.dt.manualDrive();
 	}
-
 	protected boolean isFinished() {
 		return false;
 	}
